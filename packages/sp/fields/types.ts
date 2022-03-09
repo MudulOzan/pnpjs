@@ -663,6 +663,7 @@ export enum ChoiceFieldFormatType {
 }
 
 export interface IFieldInfo {
+    Choices: string[];
     DefaultFormula: string | null;
     DefaultValue: string | null;
     Description: string;
